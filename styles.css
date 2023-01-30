@@ -1,0 +1,114 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    ;
+}
+html, body{
+    height: 100%;
+}
+body{
+    display: grid;
+    place-items: center;
+    background:#EDEADE;
+    text-align: center;
+}
+.container{
+    width: 330px;
+    background: #EDEADE;
+    border-radius: 15px;
+    padding: 40px 30px;
+    box-shadow: -5px -5px 7px #ffff,
+                    2px 2px 5px rgba(94, 104, 121, 0.20);
+}
+.container .txt{
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 35px;
+    color: darkgray;
+}
+.container .frm{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+.frm input{
+    height: 100%;
+    width: 100%;
+    padding-left: 50px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    color: #595959;
+    border-radius: 30px;
+    background: #dde1e7;
+    box-shadow: inset 2px 2px 5px #babecc,
+                inset -5px -5px 10px #ffffff73;
+}
+.frm input:focus{
+    box-shadow: inset 1px 1px 2px #babecc,
+                inset -1px -1px 2px #ffffff73 ;
+}
+.frm:nth-child(2){
+    margin-top: 18px;
+}
+.frm span{
+    position: absolute;
+    width: 50px;
+    line-height: 50px;
+    color: darkgray;
+}
+.frm label{
+    position: absolute;
+    top: 50%;
+    left: 45px;
+    pointer-events:none ;
+    color: darkgray;
+    transform: translateY(-50%);
+}
+.fgtpas{
+    text-align: left;
+    margin: 10px 0 10px 5px;
+
+}
+.fgtpas a{
+    font-size: 15px;
+    color: #4894c7;
+    text-decoration: none;
+}
+.fgtpas:hover a{
+    text-decoration: underline;
+}
+button{
+    margin: 15px 0 ;
+    width: 100%;
+    height: 50px;
+    color: darkgray;
+    font-size: 20px;
+    font-weight: 500;
+    background: #EDEADE;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow:  2px 2px 5px #babecc,
+                 -5px -5px 10px #ffffff73 ;
+}
+button:hover{
+    color: #4894c7;
+    box-shadow: inset 1px 1px 2px #babecc,
+                inset -1px -1px 2px #ffffff73 ;
+}
+.register{
+    font-size: 16px;
+    margin: 10px 0;
+    color: darkgray;
+}
+.register a{
+    text-decoration: none;
+    color: #4894c7;
+}
+.register:hover a{
+    text-decoration: underline;
+}
